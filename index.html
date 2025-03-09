@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            gap: 64px;
+        }
+
+        /* main styling */
+        .card-main {
+            width: 64vw;
+            height: 50vh;
+            display: flex;
+            background-color: rgb(12, 29, 125);
+            box-shadow: 1px 2px 3px black;
+        }
+
+        .left-section {
+            width: 65%;
+            padding: 64px 48px;
+        }
+
+        .left-section header, ul {
+            margin-bottom: 24px;
+        }
+
+        .left-section main {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .left-section ul {
+            padding-left: 24px;
+        }
+
+        .left-section img {
+            width: 16px;
+        }
+
+        .right-section {
+            width: 35%;
+            height: 100%;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        .right-section img {
+            width: 100%;
+            color: black;
+        }
+
+        /* footer styling */
+        .card-footer {
+            width: 64vw;
+            box-shadow: 2px 2px 5px gray;
+        }
+
+        .card-footer p {
+            color: gray;
+            text-align: center;
+        }
+
+        .description, footer {
+            padding: 12px 24px;
+        }
+    </style>
+
+    <title>Tugas 1</title>
+</head>
+<body>
+    <div class="card-main">
+        <div class="left-section">
+            <header>
+                <h1>Bintang Al Fizar</h1>
+                <p>Mahasiswa Universitas Muhammadiyah Jakarta</p>
+            </header>
+
+            <main>
+                <h3>Biodata</h3>
+                <ul style="list-style-type:square">
+                    <li>Tempat/Tgl Lahir: Depok, 25 Oktober 2003</li>
+                    <li>Jenis Kelamin: Laki-laki</li>
+                    <li>Agama: Islam</li>
+                    <li>Pekerjaan: Mahasiswa</li>
+                </ul>
+
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/bintang-al-fizar-70b537317" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-256/free-linkedin-circle-logo-icon-download-in-svg-png-gif-file-formats--social-media-pack-logos-icons-1583140.png?f=webp&w=256"> Bintang Al Fizar</a></li>
+                    <li><a href="https://github.com/bintang25a" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png"> @Bintang_Alfizar_</a></li>
+                    <li><a href="https://www.instagram.com/bintang_alfizar_" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"> @bintang25a</a></li>
+                </ul>
+            </main>
+        </div>
+
+        <div class="right-section">
+            <img src="/Foto Profil.jpg" alt="akses dari: https://drive.google.com/file/d/1_5jej4Vz23bp9V3s5Z3dNZ6ZjzYNRBzO/view?usp=sharing/">
+        </div>
+    </div>
+
+    <div class="card-footer">
+        <div class="description">
+            <p>Saya Bintang Al Fizar biasa dipanggil Bintang merupakan mahasiswa Universitas Muhammadiyah Jakarta angkatan 2022 yang dimana sekarang saya berada di semester 6. Saya sedang menjalani SIB Mandiri di NF Academy pada semester 6 ini</p>
+        </div>
+
+        <footer>
+            <p>&#169; Copyright 2025 - Bintang Al Fizar UMJ Student</p>
+        </footer>
+    </div>
+</body>
+</html>
